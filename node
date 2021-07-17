@@ -1,0 +1,11 @@
+//toolkit 
++Khi có một array hay object nếu không có hành động action,
+như: thêm sữa xóa để compyte lại thì không thể load trang kip 
+ví dụ khi xóa một phần tử object đi ta vẫn k thấy chỉ khi ta loading trang lại.
++Còn khi có action click vao them sua xoa thì oke liền nhé.
+
+////
++ state la noi chung ta lay trang thai
++ getState(): Giúp lấy ra state hiện tại
++ dispatch(action): Thực hiện gọi 1 action
++ payload: giá trị tham số mà action creator truyền lên.
